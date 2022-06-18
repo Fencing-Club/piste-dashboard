@@ -18,6 +18,7 @@ const SubmitEvaluationPage = loadable(
 const EditEvaluationPage = loadable(
   () => import("./pages/assessments/assessment/edit")
 )
+const ChallengesPage = loadable(() => import("./pages/challenges"))
 
 export const App: React.FunctionComponent = () => {
   return (
@@ -26,7 +27,9 @@ export const App: React.FunctionComponent = () => {
       <Route path="/" element={<AppShell />}>
         <Route path="/" element={<OverviewPage />} />
 
-        <Route path="profile" element={<ProfilePage />} />
+        <Route path="calendar" element={<CalendarPage />} />
+        <Route path="clubs" element={<ClubsPage />} />
+        <Route path="billing" element={<BillingPage />} />
 
         {/* Assessments routes */}
         <Route path="assessments" element={<AssessmentsPage />} />
@@ -43,9 +46,9 @@ export const App: React.FunctionComponent = () => {
           element={<EditEvaluationPage />}
         />
 
-        <Route path="billing" element={<BillingPage />} />
-        <Route path="calendar" element={<CalendarPage />} />
-        <Route path="clubs" element={<ClubsPage />} />
+        <Route path="challenges" element={<ChallengesPage />} />
+
+        <Route path="profile" element={<ProfilePage />} />
 
         <Route path="*" element={<Body1>Page not found.</Body1>} />
       </Route>

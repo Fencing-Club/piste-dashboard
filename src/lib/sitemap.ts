@@ -100,10 +100,10 @@ export const sitemap: IPageItem[] = [
         },
       },
       {
-        name: "Challenge",
-        url: "challenge/",
+        name: "Challenges",
+        url: "challenges/",
         tags: {
-          nav: { group: "Club", link: { icon: "Diamond", disabled: true } },
+          nav: { group: "Club", link: { icon: "Diamond", disabled: false } },
           breadcrumb: {},
         },
       },
