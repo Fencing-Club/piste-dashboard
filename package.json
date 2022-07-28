@@ -36,7 +36,7 @@
     "@nylas/components-availability": "^1.1.4",
     "@nylas/components-schedule-editor": "^1.1.4-canary.0",
     "@reduxjs/toolkit": "^1.8.3",
-    "@stripe/react-stripe-js": "^1.8.1",
+    "@stripe/react-stripe-js": "^1.9.0",
     "@stripe/stripe-js": "^1.33.0",
     "dayjs": "^1.11.4",
     "modern-normalize": "^1.1.0",
