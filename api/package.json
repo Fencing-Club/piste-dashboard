@@ -17,7 +17,7 @@
     "mssql": "^9.0.1",
     "request": "^2.88.2",
     "tedious": "^15.1.2",
-    "twilio": "^3.84.0"
+    "twilio": "^6.2.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.40",
