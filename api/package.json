@@ -16,7 +16,7 @@
     "he": "^1.2.0",
     "mssql": "^9.0.1",
     "request": "^2.88.2",
-    "tedious": "^15.1.2",
+    "tedious": "^20.3.8",
     "twilio": "^3.84.0"
   },
   "devDependencies": {
